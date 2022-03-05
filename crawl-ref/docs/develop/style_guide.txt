@@ -1,0 +1,56 @@
+Description style guide
+=======================
+
+Flavour text in Crawl varies quite widely in its style, but there are a few
+guidelines that should be kept to in order to improve consistency and keep
+descriptions useful.
+
+These guidelines apply mostly to descriptions (visible with the ?/ lookup
+command in-game, and via various other methods depending on what is being
+examined), but some of them can be generalised to other flavour text.
+
+General guidelines
+==================
+
+* Be brief! Most descriptions should only be a a couple of sentences long.
+  Longer descriptions may fit for particularly notable subjects like unique
+  monsters and unrand items.
+* Where possible, avoid referring to the player as "you", and in particular
+  don't tell the player what they think or feel (such as "You are scared of
+  it.") There are cases when monster and player behaviour differs and so it's
+  necessary to refer to the player directly, but otherwise descriptions should
+  try to refer to a nonspecific "user" of an ability, spell or item.
+
+Monster descriptions
+====================
+
+* Describe the monster in the singular, and avoid referring to "this"/"these"
+  monsters: "A big rat. It has scary teeth."
+* Note that many gameplay-relevant details will be automatically documented
+  (see describe.cc), so the description can often focus on flavour rather than
+  explaining what the monster does in-game.
+* Ensure that any flavour descriptions don't give a misleading picture of what
+  the monster is actually able to do.
+
+Spell and ability descriptions
+==============================
+
+* Directly describe what the ability does, in the present tense: "Confuses the
+  targeted creature."
+* Focus on the mechanics of the ability, with as much detail as possible. The
+  way the effect scales with power, the types of targets that are affected, and
+  any special-cased functionality (such as ignoring armour or evasion) should
+  all be mentioned.
+* Avoid duplicating information in the description text that is already
+  automatically documented by the game (for example noise level for spells,
+  special costs such as draining for abilities).
+
+Item descriptions
+=================
+
+* Describe the item in the singular, and use the present tense for details of
+  what the item does: "A magic scroll. It causes the reader to teleport."
+* Be aware that some items (such as weapons, armour and spellbooks) have most
+  of their gameplay details automatically documented, and so have more room for
+  flavour in the description. Others (such as jewellery, consumables and
+  evocable items) need to focus on mechanics in the description.
